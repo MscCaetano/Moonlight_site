@@ -1,0 +1,20 @@
+.logo {
+    display: inline;
+    width: 10%;
+}
+nav{
+    Display: inline-block;
+    vertical-Align: top;
+    
+}
+nav li {
+    Display: inline;
+    padding: 10px
+    
+
+   
+}
+
+.bannerprincipal {
+    width: 100%;
+}
