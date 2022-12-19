@@ -1,20 +1,48 @@
 .logo {
-    display: inline;
-    width: 10%;
+    
+    width: 100px;
 }
-nav{
-    Display: inline-block;
-    vertical-Align: top;
+.cabecalho {
+    font-size: 20px;
     
 }
 nav li {
-    Display: inline;
-    padding: 10px
-    
+    display:inline-block
+}   
 
+.menu{
+    display: inline-block;
+    vertical-align: top;
+  
+    
+}
+.lista {
    
+    
+    
+    
+}
+.menu__link{ 
+    text-decoration: none;
+    
+    padding:0 5px;
+    margin: 0 5px;
+    position: relative;
+    color: black;
+    padding: 10px;
+}
+     
+.menu__link:hover {
+    
+    color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 
-.bannerprincipal {
+.bannertop {
+    width: 100%;
+}
+.bannerbotton {
     width: 100%;
 }
