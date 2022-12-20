@@ -47,17 +47,18 @@ body{
 .menu__link{
     transition: 0.5s;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(100, 100, 100);
     font-weight: bold;
 }
 .menu__link:hover {
         text-decoration: none;
         color: rgb(255, 0, 0);
         font-weight: bold;
+        text-shadow: 0 0 0.15em rgb(255, 119, 119), 0 0 0.15em rgb(255, 17, 0), 0 0 0.15em rgb(34, 0, 255);
 }
 .menu__linkativo {
     text-shadow: 0 0 0.15em #87F, 0 0 0.15em #87F, 0 0 0.15em #87F;
-    color:rgb(43, 41, 37);
+    color:rgb(255, 255, 255);
     text-decoration: none;
     font-weight:bold;
 }
