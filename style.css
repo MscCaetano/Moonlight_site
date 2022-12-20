@@ -1,21 +1,33 @@
-.logo {
+.banner__logo {
     display: inline-block;
-    padding:2% 2% 0;
+    padding:4% 2% 0;
     width: 10%;
     
+    
 }
-.tituloprincipal{
+.banner__texto {
+    transition: 1s;
     size: 30px;
     display: inline-block;
     color: white;
-    padding-top:5.5%;
+    padding-top:8%;
     vertical-align: top;
+    font-weight: bolder;
+}  
+.banner__texto:hover {
+    size: 30px;
+    display: inline-block;
+    color: white;
+    padding-top:8%;
+    vertical-align: top;
+    text-shadow: 0 0 0.4em #87F, 0 0 0.4em #87F, 0 0 0.4em #87F;
 }
+
 body{
-        font-size: 20px;
+        font-size: 24px;
     
 }
-.cabecalho {
+.banner {
     background-color: rgb(43, 41, 37);
    
 }
@@ -40,13 +52,22 @@ body{
 }
 .menu__link:hover {
         text-decoration: none;
-        color: rgb(255, 3, 3);
+        color: rgb(255, 0, 0);
         font-weight: bold;
-        
-        
-    
 }
+.menu__linkativo {
+    text-shadow: 0 0 0.15em #87F, 0 0 0.15em #87F, 0 0 0.15em #87F;
+    color:rgb(43, 41, 37);
+    text-decoration: none;
+    font-weight:bold;
+}
+.banner__top {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
 
+}
+    
 .beneficios {
     padding:10%;
     background-color: white;
@@ -73,12 +94,12 @@ body{
 
 .beneficioimagem {
     padding-left:10%;
-    width: 40%;
+    width: 20%;
 }
 
-.bannertop {
-    width:100%;
-}
-.bannerbotton {
-    width:100%;
+
+.banner__botton {
+    object-fit: cover;
+    width: 100%;
+    height: 260px;
 }
