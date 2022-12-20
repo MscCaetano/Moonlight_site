@@ -1,31 +1,49 @@
 .logo {
+    display: inline-block;
+    padding:2% 2% 0;
+    width: 10%;
     
-    width: 20%;
+}
+.tituloprincipal{
+    size: 30px;
+    display: inline-block;
+    color: white;
+    padding-top:5.5%;
+    vertical-align: top;
 }
 body{
-    
-    font-size: 1.5rem;
-    
+        font-size: 20px;
     
 }
-
-.cabecalho{
-    background-color: black;
+.cabecalho {
+    background-color: rgb(43, 41, 37);
    
 }
-.introducao{
+.texto {
     padding:10%;
-    background-color: black;
-    color: rgb(117,100,100)
+    background-color: #2B2925;
+    color: #A38B8B;
+}
+.menu__lista {
+    text-align: right;
+    padding-right: 2%;
 }
 .menu__item {
-    display:inline-block;
+    display: inline-block;
+    padding: 1%;
 }
 .menu__link{
-    
+    transition: 0.5s;
     text-decoration: none;
-    color: rgb(117,100,100);
+    color: rgb(255, 255, 255);
     font-weight: bold;
+}
+.menu__link:hover {
+        text-decoration: none;
+        color: rgb(255, 3, 3);
+        font-weight: bold;
+        
+        
     
 }
 
@@ -34,13 +52,16 @@ body{
     background-color: white;
     
 }
-h2 {
+.titulo {
+    color: black;
+    font-weight: bolder;
     font-size: 30px;
     border: solid rgb(117,100,100) 2px;
+    background-color: rgb(200,100,100);
     padding: 25px;
     border-radius: 50px;
     text-align: center;
-    margin-bottom:10%;
+    margin:0 10% 5%;
     
 }
 .beneficios__lista{
@@ -51,7 +72,7 @@ h2 {
 }
 
 .beneficioimagem {
-    
+    padding-left:10%;
     width: 40%;
 }
 
